@@ -1,14 +1,14 @@
 {
   "name": "daily-programmer",
   "version": "1.0.0",
-  "main": "dist/index.js",
   "author": "Drew Wyatt <drew.j.wyatt@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "npm run build && node dist/index.js",
+    "start": "ts-node src/index.ts",
     "build": "tsc"
   },
   "dependencies": {
+    "ts-node": "^2.1.0",
     "typescript": "^2.1.4"
   }
 }
